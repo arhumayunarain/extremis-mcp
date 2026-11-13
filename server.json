@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "online.extremis/extremis",
+  "title": "Extremis",
+  "description": "Team inbox for WhatsApp, Instagram, Messenger and email: read, reply, assign and report.",
+  "version": "1.1.0",
+  "websiteUrl": "https://extremis.online/features/mcp-server",
+  "icons": [
+    {
+      "src": "https://extremis.online/icon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": ["any"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://extremis.online/api/mcp"
+    }
+  ]
+}
