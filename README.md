@@ -126,6 +126,13 @@ Message text, notes and contact details you ask about are sent to the AI tool yo
 | Protected resource metadata | [`/.well-known/oauth-protected-resource/api/mcp`](https://extremis.online/.well-known/oauth-protected-resource/api/mcp) |
 | MCP Registry name | `online.extremis/extremis` |
 
+## REST API and webhooks
+
+The MCP server is for AI tools. For your own code (a server, a CRM, an order system), Extremis also has a REST API at `https://extremis.online/api/v1` with API keys, and signed webhooks for new messages and conversation changes. Both are included in every plan.
+
+- [API.md](API.md): keys, endpoints, errors, limits, webhook events and signature checks
+- [Full developer reference](https://extremis.online/developers), with an example for every endpoint
+
 ## Help and support
 
 - [Connect AI tools with MCP](https://extremis.online/help/ai-tools/connect-ai-tools-with-mcp)
